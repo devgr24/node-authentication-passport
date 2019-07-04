@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Login Register</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/e454fd833c.js"></script>
+    <style>
+        html {
+            padding: 50 px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="page-header text-center">
+            <h1>My Profile</h1>
+            <a href="/logout" class="btn btn-danger btn-sm">Logout</a>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="well">
+                    <h3><span class="fa fa-user"></span> welcome <%= user.username %></h3>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
